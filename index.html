@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beshoy's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="loader">
+        <div class="loader-text"><span id="scramble-text">Beshoy</span></div>
+        <div class="loader-bar"></div>
+    </div>
+
+    <div id="particles-js"></div>
+
+    <nav class="navbar">
+        <div class="logo">
+            <span class="highlight">Besh</span>oy
+        </div>
+        <div class="menu-toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="section">
+        <div class="container">
+            <div class="home-content">
+                <h1 class="reveal-text">Hello, I'm <span class="highlight">Beshoy</span></h1>
+                <h2 class="typewriter">I create <span id="type-element"></span></h2>
+                <p class="fade-in">Web Developer & UI/UX Designer & Game Designer</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary-btn">View My Work</a>
+                    <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <div class="arrow">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About <span class="highlight">Me</span></h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <img src="Images/Background.jpg" alt="Profile Image">
+                        <div class="image-overlay"></div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Who Am I?</h3>
+                    <p>I am a Computer Science graduate from Kean University. My academic journey has been marked by specialized research in Virtual Reality and Augmented Reality, where I've co-authored studies examining how immersive technologies impact learning environments and pedestrian behavior.</p>
+                    <p>With proficiency in multiple programming languages including C++, Java, and C#, as well as front-end web development skills in HTML, CSS, and JavaScript, I bring a versatile technical skill set complemented by experience in game engine technology. My ability to create both immersive experiences and functional websites demonstrates my range as a developer who can work across different platforms and user interfaces.</p>
+                    <div class="stats-container">
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="1">0</span>
+                            <span class="stat-text">Years Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="6">0</span>
+                            <span class="stat-text">Projects Completed</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="150890">0</span>
+                            <span class="stat-text">Lines of Code Written</span>
+                        </div>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1P5_H7ljKvamk8pAZjQxnL1b8-dATQmCX/view?usp=sharing" class="btn primary-btn">Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="skills" class="section">
+    <div class="container">
+        <h2 class="section-title">My <span class="highlight">Skills</span></h2>
+        <div class="skills-categories-container">
+            <div class="skill-category">
+                <h3>Technical Skills</h3>
+                <div class="skill-items">
+                    <div class="skill-item" data-skill="C++">
+                        <div class="skill-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>C++</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="85"></div>
+                            </div>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-skill="Java">
+                        <div class="skill-icon">
+                            <i class="fab fa-java"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>Java</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="80"></div>
+                            </div>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-skill="C#">
+                        <div class="skill-icon">
+                            <i class="fas fa-hashtag"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>C#</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="75"></div>
+                            </div>
+                            <span class="skill-percent">75%</span>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-skill="Front End">
+                        <div class="skill-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>Front End Coding</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="90"></div>
+                            </div>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Game Development</h3>
+                <div class="skill-items">
+                    <div class="skill-item" data-skill="Unity">
+                        <div class="skill-icon">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>Unity</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="85"></div>
+                            </div>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-skill="Game Design">
+                        <div class="skill-icon">
+                            <i class="fas fa-chess-board"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>Game Design</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="80"></div>
+                            </div>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-skill="Game Engines">
+                        <div class="skill-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>Game Engine Technology</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="75"></div>
+                            </div>
+                            <span class="skill-percent">75%</span>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-skill="OOD">
+                        <div class="skill-icon">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>Object-Oriented Design</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="85"></div>
+                            </div>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Other Skills</h3>
+                <div class="skill-items">
+                    <div class="skill-item" data-skill="Data Structures">
+                        <div class="skill-icon">
+                            <i class="fas fa-sitemap"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>Data Structures</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="80"></div>
+                            </div>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-skill="Problem Solving">
+                        <div class="skill-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>Problem-Solving</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="90"></div>
+                            </div>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-skill="Code Analysis">
+                        <div class="skill-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>Code Analysis</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="85"></div>
+                            </div>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-skill="Communication">
+                        <div class="skill-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>Communication</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="90"></div>
+                            </div>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">My <span class="highlight">Projects</span></h2>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="design">UI/UX Design</button>
+                <button class="filter-btn" data-filter="app">Mobile Apps</button>
+                <button class="filter-btn" data-filter="game">Games</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-item" data-category="web">
+                    <div class="project-img">
+                        <img src="Images/Quizzer.png" alt="A-NQuizzery Project">
+                    </div>
+                    <div class="project-info">
+                        <h3>A&N Quizzery</h3>
+                        <p>An interactive quiz web application designed to test knowledge on various topics with real-time feedback.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Firebase Backend</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://beshoyaziz7.github.io/A-NQuizzery/" class="project-link" target="_blank" title="View Video Demo"><i class="fas fa-video"></i></a>
+                            <a href="https://github.com/BeshoyAziz7/A-NQuizzery" class="project-link" target="_blank" title="View on GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item" data-category="game">
+                    <div class="project-img">
+                        <img src="Images/Unity.jpg" alt="Simple Unity Survival Game">
+                    </div>
+                    <div class="project-info">
+                        <h3>Simple Unity Survival Game</h3>
+                        <p>A survival game prototype developed in Unity, featuring core mechanics like resource gathering, crafting, and basic combat.</p>
+                        <div class="project-tech">
+                            <span>Unity</span>
+                            <span>C#</span>
+                            <span>Game Design</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://jmp.sh/gkL6tjwg" class="project-link" target="_blank" title="View Video Demo"><i class="fas fa-video"></i></a>
+                            <a href="https://github.com/BeshoyAziz7/Simple-Unity-Survival-Game" class="project-link" target="_blank" title="View on GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item" data-category="game">
+                    <div class="project-img">
+                        <img src="Images/VR.png" alt="VR Simple Game Project">
+                    </div>
+                    <div class="project-info">
+                        <h3>VR Simple Game Project</h3>
+                        <p>A basic Virtual Reality game developed using Unity and C#, demonstrating fundamental VR mechanics.</p>
+                        <div class="project-tech">
+                            <span>Unity</span>
+                            <span>C#</span>
+                            <span>VR Development</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://jmp.sh/ysOER0eL" class="project-link" target="_blank" title="View Video Demo"><i class="fas fa-video"></i></a>
+                            <a href="https://github.com/BeshoyAziz7/VR-Simple-Game-Project" class="project-link" target="_blank" title="View on GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item" data-category="web">
+                    <div class="project-img">
+                        <img src="Images/Portfolio.png" alt="Project 4">
+                    </div>
+                    <div class="project-info">
+                        <h3>Portfolio Website</h3>
+                        <p>A creative portfolio website with advanced animations and interactive elements.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-globe"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item" data-category="game">
+                    <div class="project-img">
+                        <img src="Images/MEMORY.png" alt="Memory Game Project">
+                    </div>
+                    <div class="project-info">
+                        <h3>Memory Game</h3>
+                        <p>A classic memory game developed using Windows Forms, showcasing interactive UI and game logic.</p>
+                        <div class="project-tech">
+                            <span>C#</span>
+                            <span>.NET Framework</span>
+                            <span>Windows Forms</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://jmp.sh/kRCQOKMf" class="project-link" target="_blank" title="View Video Demo"><i class="fas fa-video"></i></a>
+                            <a href="https://github.com/BeshoyAziz7/FinalProject-MemoryGame-" class="project-link" target="_blank" title="View on GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item" data-category="game">
+                    <div class="project-img">
+                        <img src="Images/UNREAL.png" alt="Unreal Engine Game Project">
+                    </div>
+                    <div class="project-info">
+                        <h3>Unreal Engine Game Project</h3>
+                        <p>An immersive 3D environment and game prototype developed in Unreal Engine, showcasing level design and interactive elements.</p>
+                        <div class="project-tech">
+                            <span>Unreal Engine</span>
+                            <span>C++ (Blueprints)</span>
+                            <span>Level Design</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://jmp.sh/KaTlmM1a" class="project-link" target="_blank" title="View Video Demo"><i class="fas fa-video"></i></a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Toms River, NJ</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>beshoyaziz707@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>+1 (848) 333-9667</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/beshoy-aziz-183450279/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/BeshoyAziz7" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/beshoo_a8?igsh=MTR4eXd1aTVvaGRqMQ==" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                            <label for="email">Your Email</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder="Subject" required>
+                            <label for="subject">Subject</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Your Message" required></textarea>
+                            <label for="message">Your Message</label>
+                        </div>
+                        <button type="submit" class="btn primary-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span class="highlight">Besh</span>oy
+            </div>
+            <p>Beshoy Aziz© 2025 All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <button id="scrollToTop" class="scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <div class="custom-cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <div class="bg-animation">
+        <div class="bg-gradient"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
